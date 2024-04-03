@@ -14,7 +14,7 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnLayoutExercise, closeBtn, toastBtn, changeBgBtn, changeBtnBgBtn, disappearBtn;
+    Button btnLayoutExercise, btnButtonExercise, btnCalculatorExercise, btnMidtermExamTicTacToe, btnMatch3Exercise;
 
     ConstraintLayout bg;
 
@@ -24,59 +24,56 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnLayoutExercise = (Button) findViewById(R.id.btnLayoutExercise);
+        btnButtonExercise = (Button) findViewById(R.id.btnButtonExercise);
+        btnCalculatorExercise = findViewById(R.id.btnCalculatorExercise);
+        btnMidtermExamTicTacToe = findViewById(R.id.btnMidtermExam);
+        btnMatch3Exercise = findViewById(R.id.btnMatch3Exercise);
+
         btnLayoutExercise.setOnClickListener(new View.OnClickListener() {
             // gateway from one activity to another
             public void onClick(View v) {
-                Intent intent1 = new Intent(
+                Intent intent = new Intent(
                         MainActivity.this, // this activity
                         LayoutExercise.class); // destination activity
-                startActivity(intent1);
+                startActivity(intent);
+            }
+        });
+        btnButtonExercise.setOnClickListener(new View.OnClickListener() {
+            // gateway from one activity to another
+            public void onClick(View v) {
+                Intent intent = new Intent(
+                        MainActivity.this, // this activity
+                        ButtonExercise.class); // destination activity
+                startActivity(intent);
+            }
+        });
+        btnCalculatorExercise.setOnClickListener(new View.OnClickListener() {
+            // gateway from one activity to another
+            public void onClick(View v) {
+                Intent intent = new Intent(
+                        MainActivity.this, // this activity
+                        CalculatorExercise.class); // destination activity
+                startActivity(intent);
             }
         });
 
-        closeBtn = findViewById(R.id.closebtn);
-        toastBtn = findViewById(R.id.toastbtn);
-        changeBgBtn = findViewById(R.id.changebgbtn);
-        changeBtnBgBtn = findViewById(R.id.changebtnbgbtn);
-        disappearBtn = findViewById(R.id.disappearbtn);
-
-        closeBtn.setOnClickListener(new View.OnClickListener() {
+        btnMidtermExamTicTacToe.setOnClickListener(new View.OnClickListener() {
+            // gateway from one activity to another
             public void onClick(View v) {
-                Intent intent1 = new Intent(
-                        MainActivity.this,
-                        EmptyActivity.class
-                );
-                startActivity(intent1);
+                Intent intent = new Intent(
+                        MainActivity.this, // this activity
+                        MidtermExamTicTacToe.class); // destination activity
+                startActivity(intent);
             }
         });
 
-        toastBtn.setOnClickListener(new View.OnClickListener() {
+        btnMatch3Exercise.setOnClickListener(new View.OnClickListener() {
+            // gateway from one activity to another
             public void onClick(View v) {
-                Toast toast = Toast.makeText(MainActivity.this, "Let's make a toast!", Toast.LENGTH_SHORT);
-                toast.show();
-            }
-        });
-
-        changeBgBtn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                bg = ((ConstraintLayout)findViewById(R.id.bg));
-                Random random = new Random();
-                int color = Color.argb(255, random.nextInt(255), random.nextInt(255), random.nextInt(255));
-                bg.setBackgroundColor(color);
-            }
-        });
-
-        changeBtnBgBtn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Random random = new Random();
-                int color = Color.argb(255, random.nextInt(255), random.nextInt(255), random.nextInt(255));
-                v.setBackgroundColor(color);
-            }
-        });
-
-        disappearBtn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                disappearBtn.setVisibility(v.INVISIBLE);
+                Intent intent = new Intent(
+                        MainActivity.this, // this activity
+                        Match3.class); // destination activity
+                startActivity(intent);
             }
         });
     }

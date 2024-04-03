@@ -18,11 +18,7 @@ public class EmptyActivity extends AppCompatActivity {
         returnBtn = findViewById(R.id.returnbtn);
         returnBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent1 = new Intent(
-                        EmptyActivity.this,
-                        MainActivity.class
-                );
-                startActivity(intent1);
+                finish();
             }
         });
     }

@@ -5,39 +5,50 @@
     android:id="@+id/bg"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/medyowhite"
     tools:context=".MainActivity">
 
     <ScrollView
-        android:layout_width="253dp"
-        android:layout_height="314dp"
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/medyowhite"
+            android:gravity="center"
             android:orientation="vertical">
 
             <Button
                 android:id="@+id/btnLayoutExercise"
-                android:layout_width="250dp"
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="15dp"
+                android:backgroundTint="@color/bluish"
                 android:gravity="center"
-                android:text="@string/layout_exer_btn"
+                android:text="@string/layout_exercise_btn"
                 app:cornerRadius="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
-                android:id="@+id/closebtn"
-                android:layout_width="250dp"
+                android:id="@+id/btnButtonExercise"
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="15dp"
-                android:text="@string/close_btn"
+                android:backgroundTint="@color/bluish"
+                android:text="@string/button_exercise_btn"
                 app:cornerRadius="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.502"
@@ -45,52 +56,108 @@
                 app:layout_constraintTop_toBottomOf="@+id/btnLayoutExercise" />
 
             <Button
-                android:id="@+id/toastbtn"
-                android:layout_width="250dp"
+                android:id="@+id/btnCalculatorExercise"
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="15dp"
-                android:text="@string/toast_btn"
+                android:backgroundTint="@color/bluish"
+                android:text="@string/calculator_exercise_btn"
                 app:cornerRadius="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.502"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/closebtn" />
+                app:layout_constraintTop_toBottomOf="@+id/btnButtonExercise" />
 
             <Button
-                android:id="@+id/changebgbtn"
-                android:layout_width="250dp"
+                android:id="@+id/btnMidtermExam"
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="15dp"
-                android:text="@string/change_bg_btn"
+                android:backgroundTint="@color/bluish"
+                android:text="@string/midterm_exam_btn"
                 app:cornerRadius="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.502"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/toastbtn" />
+                app:layout_constraintTop_toBottomOf="@+id/btnCalculatorExercise" />
 
             <Button
-                android:id="@+id/changebtnbgbtn"
-                android:layout_width="250dp"
+                android:id="@+id/btnMatch3Exercise"
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="15dp"
-                android:text="@string/change_btn_bg_btn"
+                android:backgroundTint="@color/bluish"
+                android:text="@string/match3_exercise_btn"
                 app:cornerRadius="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.502"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/changebgbtn" />
+                app:layout_constraintTop_toBottomOf="@+id/btnMidtermExam" />
 
             <Button
-                android:id="@+id/disappearbtn"
-                android:layout_width="250dp"
+                android:id="@+id/btnExercise6"
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="15dp"
-                android:text="@string/disappear_btn"
+                android:backgroundTint="@color/bluish"
+                android:text="@string/empty_btn"
                 app:cornerRadius="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.502"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/changebtnbgbtn" />
+                app:layout_constraintTop_toBottomOf="@+id/btnMatch3Exercise" />
+
+            <Button
+                android:id="@+id/btnExercise7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/bluish"
+                android:text="@string/empty_btn"
+                app:cornerRadius="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnMatch3Exercise" />
+
+            <Button
+                android:id="@+id/btnExercise8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/bluish"
+                android:text="@string/empty_btn"
+                app:cornerRadius="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnMatch3Exercise" />
+
+            <Button
+                android:id="@+id/btnExercise9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/bluish"
+                android:text="@string/empty_btn"
+                app:cornerRadius="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnMatch3Exercise" />
+
+            <Button
+                android:id="@+id/btnExercise10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/bluish"
+                android:text="@string/empty_btn"
+                app:cornerRadius="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnMatch3Exercise" />
         </LinearLayout>
     </ScrollView>
 

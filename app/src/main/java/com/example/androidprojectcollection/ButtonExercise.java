@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import java.util.Random;
 
-public class activity_button_exercise extends AppCompatActivity {
+public class ButtonExercise extends AppCompatActivity {
 
     Button closeBtn, toastBtn, changeBgBtn, changeBtnBgBtn, disappearBtn;
     ConstraintLayout bg;
@@ -30,7 +30,7 @@ public class activity_button_exercise extends AppCompatActivity {
         closeBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent1 = new Intent(
-                        activity_button_exercise.this,
+                        ButtonExercise.this,
                         EmptyActivity.class
                 );
                 startActivity(intent1);
@@ -40,7 +40,7 @@ public class activity_button_exercise extends AppCompatActivity {
         closeBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent1 = new Intent(
-                        activity_button_exercise.this,
+                        ButtonExercise.this,
                         EmptyActivity.class
                 );
                 startActivity(intent1);
@@ -49,7 +49,7 @@ public class activity_button_exercise extends AppCompatActivity {
 
         toastBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Toast toast = Toast.makeText(activity_button_exercise.this, "Let's make a toast!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(ButtonExercise.this, "Let's make a toast!", Toast.LENGTH_SHORT);
                 toast.show();
             }
         });

@@ -12,13 +12,19 @@
         android:theme="@style/Theme.AndroidProjectCollection"
         tools:targetApi="31">
         <activity
-            android:name=".Calculator"
+            android:name=".Match3"
+            android:exported="false" />
+        <activity
+            android:name=".MidtermExamTicTacToe"
+            android:exported="false" />
+        <activity
+            android:name=".CalculatorExercise"
             android:exported="false" />
         <activity
             android:name=".EmptyActivity"
             android:exported="false" />
         <activity
-            android:name=".activity_button_exercise"
+            android:name=".ButtonExercise"
             android:exported="false" />
         <activity
             android:name=".LayoutExercise"

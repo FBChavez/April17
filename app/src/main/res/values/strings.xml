@@ -1,10 +1,53 @@
 <resources>
     <string name="app_name">AndroidProjectCollection</string>
-    <string name="layout_exer_btn">Layout Exercise</string>
+
+    <!-- Main Exercise Strings: Displays All Activities -->
+    <string name="layout_exercise_btn">Layout Exercise</string>
+    <string name="button_exercise_btn">Button Exercise</string>
+    <string name="calculator_exercise_btn">Calculator Exercise</string>
+    <string name="midterm_exam_btn">Midterm Exam</string>
+    <string name="match3_exercise_btn">Match 3 Exercise</string>
+    <string name="empty_btn">Empty</string>
+
+
+    <!-- Button Exercise Strings -->
     <string name="close_btn">Close</string>
     <string name="toast_btn">Toast</string>
     <string name="change_bg_btn">Change BG</string>
     <string name="change_btn_bg_btn">Change Button BG</string>
     <string name="disappear_btn">Disappear</string>
     <string name="return_btn">Return</string>
+
+    <!-- Calculator Exercise Strings -->
+    <string name="no_1">1</string>
+    <string name="no_2">2</string>
+    <string name="no_3">3</string>
+    <string name="no_4">4</string>
+    <string name="no_5">5</string>
+    <string name="no_6">6</string>
+    <string name="no_7">7</string>
+    <string name="no_8">8</string>
+    <string name="no_9">9</string>
+    <string name="no_0">0</string>
+    <!--    <string name="no_00">00</string>-->
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="times">*</string>
+    <string name="divide">/</string>
+    <string name="equals">=</string>
+    <!--    <string name="percent">%</string>-->
+    <string name="point">.</string>
+    <string name="clear">clr</string>
+    <string name="back">back</string>
+
+    <!-- Midterm Exam TicTacToe -->
+    <string name="pOTurn">Player O\'s Turn</string>
+    <string name="pXTurn">Player X\'s Turn</string>
+    <string name="O">O</string>
+    <string name="X">X</string>
+    <string name="empty">-</string>
+    <string name="pOWins">Player O wins!</string>
+    <string name="pXWins">Player X wins!</string>
+    <string name="pDraw">It\'s a draw!</string>
+    <string name="restart">Restart</string>
 </resources>
