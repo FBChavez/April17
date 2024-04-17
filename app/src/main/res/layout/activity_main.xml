@@ -95,12 +95,12 @@
                 app:layout_constraintTop_toBottomOf="@+id/btnMidtermExam" />
 
             <Button
-                android:id="@+id/btnExercise6"
+                android:id="@+id/btnPassingIntents"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="15dp"
                 android:backgroundTint="@color/bluish"
-                android:text="@string/empty_btn"
+                android:text="@string/passing_intents_exercise_btn"
                 app:cornerRadius="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.502"
@@ -108,12 +108,12 @@
                 app:layout_constraintTop_toBottomOf="@+id/btnMatch3Exercise" />
 
             <Button
-                android:id="@+id/btnExercise7"
+                android:id="@+id/btnFragments"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="15dp"
                 android:backgroundTint="@color/bluish"
-                android:text="@string/empty_btn"
+                android:text="@string/fragments_exercise_btn"
                 app:cornerRadius="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.502"
@@ -121,12 +121,12 @@
                 app:layout_constraintTop_toBottomOf="@+id/btnMatch3Exercise" />
 
             <Button
-                android:id="@+id/btnExercise8"
+                android:id="@+id/btnMenus"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="15dp"
                 android:backgroundTint="@color/bluish"
-                android:text="@string/empty_btn"
+                android:text="@string/menus_exercise_btn"
                 app:cornerRadius="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.502"

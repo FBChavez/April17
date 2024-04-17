@@ -2,11 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scoretv"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Match3">
 
     <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -24,9 +26,10 @@
             android:layout_height="75dp">
 
             <Button
-                android:id="@+id/btn0_0"
+                android:id="@+id/btn_00"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -39,9 +42,10 @@
                 tools:layout_editor_absoluteY="500dp" />
 
             <Button
-                android:id="@+id/btn0_1"
+                android:id="@+id/btn_01"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -53,9 +57,10 @@
                 tools:layout_editor_absoluteY="220dp" />
 
             <Button
-                android:id="@+id/btn0_2"
+                android:id="@+id/btn_02"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -67,9 +72,10 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <Button
-                android:id="@+id/btn0_3"
+                android:id="@+id/btn_03"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -81,9 +87,10 @@
                 tools:layout_editor_absoluteY="290dp" />
 
             <Button
-                android:id="@+id/btn0_4"
+                android:id="@+id/btn_04"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -101,9 +108,10 @@
             android:layout_height="75dp">
 
             <Button
-                android:id="@+id/btn1_0"
+                android:id="@+id/btn_10"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -114,9 +122,10 @@
                 tools:layout_editor_absoluteY="500dp" />
 
             <Button
-                android:id="@+id/btn1_1"
+                android:id="@+id/btn_11"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -127,9 +136,10 @@
                 tools:layout_editor_absoluteY="220dp" />
 
             <Button
-                android:id="@+id/btn1_2"
+                android:id="@+id/btn_12"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -140,9 +150,10 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <Button
-                android:id="@+id/btn1_3"
+                android:id="@+id/btn_13"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -153,9 +164,10 @@
                 tools:layout_editor_absoluteY="290dp" />
 
             <Button
-                android:id="@+id/btn1_4"
+                android:id="@+id/btn_14"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -172,9 +184,10 @@
             android:layout_height="75dp">
 
             <Button
-                android:id="@+id/btn2_0"
+                android:id="@+id/btn_20"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -185,9 +198,10 @@
                 tools:layout_editor_absoluteY="500dp" />
 
             <Button
-                android:id="@+id/btn2_1"
+                android:id="@+id/btn_21"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -198,9 +212,10 @@
                 tools:layout_editor_absoluteY="220dp" />
 
             <Button
-                android:id="@+id/btn2_2"
+                android:id="@+id/btn_22"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -211,9 +226,10 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <Button
-                android:id="@+id/btn2_3"
+                android:id="@+id/btn_23"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -224,9 +240,10 @@
                 tools:layout_editor_absoluteY="290dp" />
 
             <Button
-                android:id="@+id/btn2_4"
+                android:id="@+id/btn_24"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -243,9 +260,10 @@
             android:layout_height="75dp">
 
             <Button
-                android:id="@+id/btn3_0"
+                android:id="@+id/btn_30"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -256,9 +274,10 @@
                 tools:layout_editor_absoluteY="500dp" />
 
             <Button
-                android:id="@+id/btn3_1"
+                android:id="@+id/btn_31"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -269,9 +288,10 @@
                 tools:layout_editor_absoluteY="220dp" />
 
             <Button
-                android:id="@+id/btn3_2"
+                android:id="@+id/btn_32"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -282,9 +302,10 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <Button
-                android:id="@+id/btn3_3"
+                android:id="@+id/btn_33"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -295,9 +316,10 @@
                 tools:layout_editor_absoluteY="290dp" />
 
             <Button
-                android:id="@+id/btn3_4"
+                android:id="@+id/btn_34"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -314,9 +336,10 @@
             android:layout_height="75dp">
 
             <Button
-                android:id="@+id/btn4_0"
+                android:id="@+id/btn_40"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -327,9 +350,10 @@
                 tools:layout_editor_absoluteY="500dp" />
 
             <Button
-                android:id="@+id/btn4_1"
+                android:id="@+id/btn_41"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -340,9 +364,10 @@
                 tools:layout_editor_absoluteY="220dp" />
 
             <Button
-                android:id="@+id/btn4_2"
+                android:id="@+id/btn_42"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -353,9 +378,10 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <Button
-                android:id="@+id/btn4_3"
+                android:id="@+id/btn_43"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -366,9 +392,10 @@
                 tools:layout_editor_absoluteY="290dp" />
 
             <Button
-                android:id="@+id/btn4_4"
+                android:id="@+id/btn_44"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginHorizontal="2dp"
                 android:backgroundTint="@color/medyogray"
                 android:maxWidth="80dp"
                 android:minWidth="75dp"
@@ -381,5 +408,57 @@
         </TableRow>
 
     </TableLayout>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/score_format"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/scorelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scorelbl"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/score"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/resetbtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/randomizebtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/randomizebtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/randomize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/resetbtn"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

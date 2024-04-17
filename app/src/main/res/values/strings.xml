@@ -7,6 +7,9 @@
     <string name="calculator_exercise_btn">Calculator Exercise</string>
     <string name="midterm_exam_btn">Midterm Exam</string>
     <string name="match3_exercise_btn">Match 3 Exercise</string>
+    <string name="passing_intents_exercise_btn">Passing Intents</string>
+    <string name="fragments_exercise_btn">Fragments</string>
+    <string name="menus_exercise_btn">Menus</string>
     <string name="empty_btn">Empty</string>
 
 
@@ -50,4 +53,46 @@
     <string name="pXWins">Player X wins!</string>
     <string name="pDraw">It\'s a draw!</string>
     <string name="restart">Restart</string>
+
+    <!-- Match 3 -->
+    <string name="scorelbl">Score</string>
+    <string name="score_format">%d</string>
+    <string name="reset">Reset</string>
+    <string name="randomize">Randomize</string>
+
+    <!-- Passing Intents -->
+    <string name="registration_title">Student Registration Form</string>
+    <string name="complete_name_lbl">Complete Name</string>
+    <string name="first_name_placeholder">First Name</string>
+    <string name="last_name_placeholder">Last Name</string>
+    <string name="gender_lbl">Gender</string>
+    <string name="male_lbl">Male</string>
+    <string name="female_lbl">Female</string>
+    <string name="others_lbl">Others</string>
+    <string name="birth_date_lbl">Birth Date</string>
+    <string name="phone_number_lbl">Phone Number</string>
+    <string name="email_address_lbl">Email Address</string>
+
+        <!-- Additional 5 more data -->
+    <string name="address_lbl">Address</string>
+    <string name="program_lbl">Degree Program</string>
+    <string name="year_level_lbl">Year Level</string>
+    <string name="id_number_lbl">ID Number</string>
+    <string name="emergency_contact_title">Emergency Contact</string>
+    <string name="emergency_contact_name_lbl">Full Name</string>
+    <string name="relationship_lbl">Relationship</string>
+
+    <string name="clear_btn">Clear</string>
+    <string name="submit_btn">Submit</string>
+
+    <string name="student_profile_title">Student Profile</string>
+    <string name="demographics_title">Demographics</string>
+
+    <!--    <string name="return_btn">Return</string>-->
+
+
+    <!-- Fragments -->
+
+    <!-- Menus -->
+
 </resources>
