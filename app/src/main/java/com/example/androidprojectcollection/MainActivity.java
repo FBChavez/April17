@@ -14,7 +14,7 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnLayoutExercise, btnButtonExercise, btnCalculatorExercise, btnMidtermExamTicTacToe, btnMatch3Exercise, btnPassingIntents;
+    Button btnLayoutExercise, btnButtonExercise, btnCalculatorExercise, btnMidtermExamTicTacToe, btnMatch3Exercise, btnPassingIntents, btnMenus;
 
     ConstraintLayout bg;
 
@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         btnMidtermExamTicTacToe = findViewById(R.id.btnMidtermExam);
         btnMatch3Exercise = findViewById(R.id.btnMatch3Exercise);
         btnPassingIntents = findViewById(R.id.btnPassingIntents);
+        btnMenus = findViewById(R.id.btnMenus);
 
 
         btnLayoutExercise.setOnClickListener(new View.OnClickListener() {
@@ -85,6 +86,16 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(
                         MainActivity.this,
                         PassingIntentsExercise.class);
+                startActivity(intent);
+            }
+        });
+
+        btnMenus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(
+                        MainActivity.this,
+                        MenuExercise.class);
                 startActivity(intent);
             }
         });

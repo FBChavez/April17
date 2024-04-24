@@ -73,7 +73,7 @@
     <string name="phone_number_lbl">Phone Number</string>
     <string name="email_address_lbl">Email Address</string>
 
-        <!-- Additional 5 more data -->
+    <!-- Additional 5 more data -->
     <string name="address_lbl">Address</string>
     <string name="program_lbl">Degree Program</string>
     <string name="year_level_lbl">Year Level</string>
@@ -94,5 +94,16 @@
     <!-- Fragments -->
 
     <!-- Menus -->
+    <string name="mItemChange">Change</string>
+    <string name="mItemReset">Reset</string>
+    <string name="mItemExit">Exit</string>
+    <string name="mItemChangeText">Change Text</string>
+    <string name="mItemChangeColor">Change Color</string>
+    <string name="mItemChangeColorText">Change Color Text</string>
+    <string name="mItemChangeTextSize">Change Text Size</string>
+    <string name="mItemChangeSize">Change Size</string>
+
+    <string name="default_text">Default</string>
+    <string name="changed_text">Changed</string>
 
 </resources>
